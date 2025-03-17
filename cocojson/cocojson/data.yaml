@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['bagel', 'croissant', 'custardcreambread', 'pizzabread', 'redbeanbread', 'saltbread', 'soboro', 'whitebread']
+
+roboflow:
+  workspace: breadscanso
+  project: br4-90hjc
+  version: 6
+  license: Private
+  url: https://app.roboflow.com/breadscanso/br4-90hjc/6

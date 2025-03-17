@@ -18,7 +18,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 나머지 라우터 코드...
 # .env 파일 로드
 load_dotenv()
 
